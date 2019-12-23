@@ -1,0 +1,148 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+* {
+    box-sizing: border-box;
+}
+/*@import url(normalize.css);*/
+body {
+    background-color: #fff;    
+}
+div#wrapper {
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: #fff;    
+}
+/*Сторонние шрифты*/
+@font-face {
+    font-family: "Blogger Sans";
+    src: url("../fonts/Blogger Sans.ttf");    
+}
+@font-face {
+    font-family: "Blogger Sans-Light";
+    src: url("../fonts/Blogger Sans-Light.ttf");    
+}
+@font-face {
+    font-family: "Pompadur";
+    src: url("../fonts/Pompadur.ttf");    
+}
+/**/
+div#header {
+    width: 1200px; outline: 0px solid #FF8000;
+    min-height: 170px;   
+    background-image: url("../img/mers.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+    /*border-bottom: 2px solid #000;*/
+}
+div#line_up {
+    width: 1200px;
+    height: 3px;    
+     background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); 
+}
+h2#title {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size: 36px;
+    font-family: "Pompadur", Arial, Helvetica, sans-serif;
+    /*font-family: Courier, "Courier New", monospace;*/
+    text-shadow: 2px 2px 2px gray;
+}
+ul#menu {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-size: 26px;
+    font-family: "Blogger Sans", Arial, Helvetica, sans-serif;
+    /*font-family: Courier, "Courier New", monospace;*/
+    text-shadow: 2px 2px 2px gray;
+}
+ul#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 18px;
+    text-transform: uppercase;    
+}
+ul#menu li a, .car a {
+    text-decoration: none;
+    color: gray;
+}
+
+.linck {
+    /*Пробный*/
+    color: red !important;
+    font-style: italic;    
+}
+
+ul#menu li a:hover, .car a:hover, .send:hover, ul#goodsMenu li a:hover, .goods a:hover {
+    color: #000;
+    text-shadow: 1px 1px 1px #000;
+}
+/*header all*/
+/*car*/
+.car img {
+    cursor: pointer;
+}
+.car {
+    width: 590px; outline: 0px solid red;
+    min-height: 340px;
+    float: left;    
+    padding: 10px 10px;
+    margin-bottom: 12px;
+}
+h3   {
+    font-family: "Blogger Sans", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #000;
+    text-shadow: 2px 2px 2px gray;
+    padding-bottom: 12px;
+}
+.carDescr {
+    font-family: "Blogger Sans-Light", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #000;
+    text-shadow: 2px 2px 2px gray;
+    padding-bottom: 8px;
+}
+.clear {
+    clear: both;
+}
+.price {
+    font-size: 22px;
+    color: green;
+}
+/*car all*/
+/*footer*/
+div#line_dw {
+    width: 1200px;
+    height: 3px;    
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+}
+div#footer {
+    width: 1200px;
+    min-height: 70px;
+    background-color: #fff;
+}
